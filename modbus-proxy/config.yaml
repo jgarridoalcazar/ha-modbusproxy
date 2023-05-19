@@ -12,8 +12,8 @@ startup: services
 init: false
 options:
   upstreamhost: "192.168.178.74"
-  upstreamport: 502
-  listenport: 502
+  upstreamport: 1502
+  listenport: 1502
   connection_time: 0.1
   timeout: 10
   loglevel: "INFO"
@@ -25,4 +25,4 @@ schema:
   timeout: int
   loglevel: list(INFO|DEBUG|ERROR)
 ports:
-  502/tcp: 502
+  1502/tcp: 1502
